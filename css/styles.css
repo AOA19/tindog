@@ -1,0 +1,174 @@
+/* Elements Styling */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Heading Styling */
+.big-header {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container styling */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Background color section styling */
+.colored-bg {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+/* Navbar styling */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Title styling */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image Styling */
+.iphone-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.image-div {
+  position: relative;
+}
+
+/* Download buttons styling */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Styling */
+#features {
+  position: relative;
+}
+
+.feature-header {
+  font-size: 1.5rem;
+}
+
+.features-icons {
+  color: #ef8172;
+  padding-left: 10px;
+  margin-bottom: 16px;
+}
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  padding: 0 50px 100px 50px;
+  text-align: center;
+}
+
+/* Testimonials Styling */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press Styling  */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Styling  */
+#pricing {
+  padding: 100px;
+}
+
+.price-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* 
+Call to Action Styling */
+
+/* Footer Styling */
+.social-icons {
+  margin: 20px 10px;
+}
+
+/* Media query styling */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}

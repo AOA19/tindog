@@ -22,8 +22,8 @@
 
 ### Links
 
-- [Soultion URL](https://github.com/AOA19/HuddleLandingPage)
-- [Live Site URL](https://aoa19.github.io/HuddleLandingPage/)
+- [Soultion URL](https://github.com/AOA19/tindog)
+- [Live Site URL](https://aoa19.github.io/tindog/)
 
 ## My process
 
